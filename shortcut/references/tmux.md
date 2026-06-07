@@ -1,6 +1,6 @@
 # tmux Shortcuts
 
-Config: none (`~/.tmux.conf` does not exist — all defaults)  
+Config: `~/.tmux.conf` (vi copy-mode bindings enabled)  
 Prefix key: `Ctrl+B` (press, release, then the key)
 
 ## Panes — the main reason to use tmux in Konsole
