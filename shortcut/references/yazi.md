@@ -11,7 +11,7 @@ Config: `~/.config/yazi/keymap.toml`
 | `Ctrl+G` | Git diff hovered file vs HEAD (working-tree changes). Opens read-only in Neovim. |
 | `Alt+G` | Git diff hovered file staged changes vs HEAD (index vs HEAD). Opens read-only in Neovim. |
 | `Ctrl+H` | Pick 1 or 2 commits via fzf and diff the hovered file. 1 commit → diff vs working tree. 2 commits (Tab to mark) → diff between them. |
-| `b` | Open hovered file in Google Chrome |
+| `b` | Open hovered file in Google Chrome (via `~/.local/bin/yazi-open-browser`, which converts the path to a proper `file://` URL using `pathlib` — required because Chrome misparses `@` in raw paths) |
 
 ## Default navigation
 
